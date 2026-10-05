@@ -7,9 +7,9 @@ import { fadeInUp } from "@/lib/animations"
 
 export default function Hero() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/johnconnor31", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/sairam-singireesu-72339935", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:sairamsingireesu@gmail.com", label: "Email" },
   ]
 
   return (
@@ -73,15 +73,15 @@ export default function Hero() {
         {/* Main Heading */}
         <motion.div variants={fadeInUp} className="mb-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">Crafting Digital</span>
+            <span className="gradient-text">Honing Technical</span>
             <br />
-            <span className="text-foreground">Experiences</span>
+            <span className="text-foreground">Expertise</span>
           </h1>
         </motion.div>
 
         {/* Description */}
         <motion.p variants={fadeInUp} className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-          Senior Frontend Developer specializing in building scalable, performant, and beautiful web applications with
+          Principal Application Developer specializing in building scalable, performant, and beautiful web applications with
           modern technologies. Transforming ideas into elegant solutions.
         </motion.p>
 
@@ -137,9 +137,9 @@ export default function Hero() {
         {/* Stats Section */}
         <motion.div variants={fadeInUp} className="mt-20 grid grid-cols-3 gap-8 pt-12 border-t border-border/50">
           {[
-            { number: "50+", label: "Projects Completed" },
-            { number: "30+", label: "Happy Clients" },
-            { number: "5+", label: "Years Experience" },
+            { number: "20+", label: "Projects Completed" },
+            { number: "50+", label: "Happy Clients" },
+            { number: "12+", label: "Years Experience" },
           ].map((stat, index) => (
             <motion.div
               key={index}
