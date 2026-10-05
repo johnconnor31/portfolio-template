@@ -11,7 +11,7 @@ export default function About() {
       <SectionHeader
         subtitle="Get to know me"
         title="About Me"
-        description="Passionate developer with a focus on creating exceptional digital experiences"
+        description="Passionate developer with a focus on mastering technology architectures"
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
