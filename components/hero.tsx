@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
-import { containerVariants, fadeInUp } from "@/lib/animations"
+import { fadeInUp } from "@/lib/animations"
 
 export default function Hero() {
   const socialLinks = [
