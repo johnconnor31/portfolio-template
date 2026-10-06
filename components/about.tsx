@@ -24,7 +24,7 @@ export default function About() {
           <div className="relative w-full aspect-square rounded-xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 z-10" />
             <Image
-              src="/professional-developer-portrait.jpg"
+              src="/profilePic.png"
               alt="Professional portrait"
               fill
               className="object-cover"
