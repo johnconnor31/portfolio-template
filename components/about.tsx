@@ -41,9 +41,8 @@ export default function About() {
           className="space-y-6"
         >
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I&apos;m a passionate developer with 8+ years of experience building scalable web applications. My journey
-            started with a curiosity about how things work on the web, and it has evolved into a deep expertise in
-            modern frontend technologies.
+            I&apos;m a passionate developer with 12+ years of experience building scalable web applications. I have started my journey with working in Backend using C#.Net.
+            I had started exploring Javascript ecosystem and really loved the ReactJs frontend framework for building Web apps and made it my career. I also gained expertise in building APIs using NodeJs and NextJs.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -54,11 +53,11 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-4 pt-4">
             <CardHover>
-              <p className="text-3xl font-bold gradient-text mb-1">8+</p>
+              <p className="text-3xl font-bold gradient-text mb-1">12+</p>
               <p className="text-sm text-muted-foreground">Years Experience</p>
             </CardHover>
             <CardHover>
-              <p className="text-3xl font-bold gradient-text mb-1">50+</p>
+              <p className="text-3xl font-bold gradient-text mb-1">20+</p>
               <p className="text-sm text-muted-foreground">Projects Completed</p>
             </CardHover>
           </div>
@@ -66,7 +65,7 @@ export default function About() {
           <div className="pt-4 space-y-3">
             <p className="text-sm font-semibold text-primary">Core Values</p>
             <div className="flex flex-wrap gap-2">
-              {["Quality", "Innovation", "Collaboration", "Growth"].map((value) => (
+              {["Quality", "Innovation", "Collaboration", "Enthusiasm"].map((value) => (
                 <span
                   key={value}
                   className="px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/30"

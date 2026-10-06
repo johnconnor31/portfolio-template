@@ -8,12 +8,12 @@ import { staggerContainer, fadeInUp } from "@/lib/animations"
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     icon: "🎨",
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"],
+    skills: ["Node.js", "Express", "Snowflake", "Next.Js", "REST APIs"],
     icon: "⚙️",
   },
   {
