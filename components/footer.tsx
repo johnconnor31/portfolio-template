@@ -5,10 +5,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/johnconnor31", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/sairam-singireesu-72339935", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:sairamsingireesu@gmail.com", label: "Email" },
   ]
 
   return (
@@ -18,7 +17,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold gradient-text mb-4">Dev</h3>
             <p className="text-muted-foreground text-sm">
-              Senior Frontend Developer crafting beautiful and performant web experiences.
+              Principal Applications Engineer crafting beautiful and performant web experiences.
             </p>
           </div>
 

@@ -95,7 +95,7 @@ export default function Contact() {
                 <Mail className="text-primary" size={24} />
                 <h3 className="font-semibold text-primary">Email</h3>
               </div>
-              <p className="text-muted-foreground">hello@example.com</p>
+              <p className="text-muted-foreground">sairamsingireesu@gmail.com</p>
             </div>
 
             <div className="glass p-6 rounded-lg">
@@ -103,7 +103,7 @@ export default function Contact() {
                 <Phone className="text-primary" size={24} />
                 <h3 className="font-semibold text-primary">Phone</h3>
               </div>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+91 8861859485</p>
             </div>
 
             <div className="glass p-6 rounded-lg">
@@ -111,7 +111,7 @@ export default function Contact() {
                 <MapPin className="text-primary" size={24} />
                 <h3 className="font-semibold text-primary">Location</h3>
               </div>
-              <p className="text-muted-foreground">San Francisco, CA</p>
+              <p className="text-muted-foreground">Bengaluru, India</p>
             </div>
           </motion.div>
 
@@ -185,7 +185,7 @@ export default function Contact() {
                 >
                   <CheckCircle className="text-green-500" size={20} />
                   <p className="text-green-500 text-sm font-medium">
-                    Message sent successfully! We&apos;ll get back to you soon.
+                    Message sent successfully! I&apos;ll get back to you soon.
                   </p>
                 </motion.div>
               )}
